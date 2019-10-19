@@ -1,0 +1,55 @@
+{
+  "name": "duzun/http-socket",
+  "type": "library",
+  "description": "HTTP (&lt;2.0) Requests over Socket - get as close to the socket level as possible",
+  "version": "0.0.1",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dumitru Uzun",
+      "email": "contact@duzun.me",
+      "homepage": "https://DUzun.Me",
+      "role": "Author"
+    }
+  ],
+  "homepage": "https://github.com/duzun/http-socket.php",
+  "keywords": [
+    "HTTP",
+    "Socket",
+    "Request",
+    "PHP"
+  ],
+  "main": "src/HttpSocket.php",
+  "prefer-stable": true,
+  "autoload": {
+    "psr-4": {
+      "duzun\\": "src/"
+    },
+    "psr-0": {
+      "HttpSocket": "src/"
+    },
+    "classmap": [
+      "src/HttpSocket.php"
+    ]
+  },
+  "support": {
+    "email": "contact@duzun.me",
+    "issues": "https://github.com/duzun/http-socket.php/issues",
+    "source": "https://github.com/duzun/http-socket.php"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/duzun/http-socket.php.git"
+  },
+  "archive": {
+    "exclude": [
+      "/tests",
+      "/tools",
+      "/docs",
+      "/.*"
+    ]
+  },
+  "require": {
+    "php": ">=5.3"
+  }
+}

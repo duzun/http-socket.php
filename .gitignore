@@ -1,0 +1,11 @@
+/vendor/
+
+## - Node.js
+/node_modules/
+npm-debug.log
+
+## Other
+*.log
+phpunit*.phar
+.lock-wscript
+*.bak
